@@ -1,0 +1,13 @@
+
+body {
+    background-color: #161616;
+    margin: 0;
+    width: 100%;
+}
+
+canvas 
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}

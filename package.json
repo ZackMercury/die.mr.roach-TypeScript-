@@ -1,0 +1,25 @@
+{
+  "name": "blank-pixi-project",
+  "version": "0.0.1",
+  "description": "Empty PIXIjs project",
+  "main": "main.js",
+  "dependencies": {
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-typescript": "^7.12.7",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "build": "webpack --mode development",
+    "build:prod": "webpack -p"
+  },
+  "author": "Zack Mercury",
+  "license": "ISC"
+}
