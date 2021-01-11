@@ -15,7 +15,7 @@ interface Transition
 }
 
 export default class Tween {
-    private static transitions = [];
+    private static transitions:Transition[] = [];
 
     public static init(app:Application):void
     {
